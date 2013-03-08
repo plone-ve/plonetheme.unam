@@ -5,7 +5,7 @@ version = '1.0'
 setup(
     name='plonetheme.unam',
     version=version,
-    description='This is a theme that provides a nice unam.mx like HTML output',
+    description='A responsive theme that provides a nice unam.mx like HTML output',
     long_description=open('README.txt').read() + '\n' +
                      open('docs/CHANGES.txt').read(),
     # Get more strings from
@@ -40,6 +40,7 @@ setup(
         ],
         'test': [
             'plone.app.testing',
+            'unittest2'
         ],
     },
     entry_points="""
