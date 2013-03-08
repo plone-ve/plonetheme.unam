@@ -21,3 +21,6 @@ coverage
 
 # Mr Developer
 .mr.developer.cfg
+
+# SublimeCodeIntel
+.codeintel
