@@ -2,11 +2,10 @@
     xmlns="http://namespaces.zope.org/zope"
     xmlns:plone="http://namespaces.plone.org/plone">
  
-<!--     <include package="plone.resource" file="meta.zcml"/>
- -->
     <plone:static
-            name="plonetheme.unam" 
-            directory="theme/plonetheme.unam"
-            type="theme" />
+        name="plonetheme.unam" 
+        directory="theme/plonetheme.unam"
+        type="theme"
+        />
 
 </configure>
