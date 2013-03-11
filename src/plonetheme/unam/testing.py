@@ -11,6 +11,7 @@ class Theming(PloneSandboxLayer):
     def setUpZope(self, app, configurationContext):
         #load ZCML
         import plonetheme.unam
+        xmlconfig.file('configure.zcml', plonetheme.unam, context=configurationContext)
 
     def setUpPloneSite(self, portal):
         pass
