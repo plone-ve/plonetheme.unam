@@ -1,16 +1,15 @@
-Changelog
-=========
+Changes
+=======
 
 1.0 (unreleased)
-------------------
+----------------
 
 - Nothing changed yet.
 
 
+1.0a1 (2013-02-27)
+------------------
 
-1.0 - (2013-02-27)
---------------------
-
-- Initial release
-  [adriana-rv]]
+- Initial release.
+  [adriana-rv, gil-cano]
 
