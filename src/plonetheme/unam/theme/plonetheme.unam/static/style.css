@@ -57,21 +57,28 @@ padding: 1em 0;
 /* Site Tools */
 #tools {background: #e1b715;
 		display: inline;
+
+
 }
 #tools ul {;
 background: #e1b715;	
 color: #fff;
-font-size: 1.2em;
+font-size: 1em;
 border-bottom: 0px solid #FF9900;
 text-align: center;	
-padding: 10px;
 }
 #tools li{display: inline; 
-	padding-right: 10px;
 }
 
 #tools a{
 	color: #0D233D;
+}
+
+#siteactions ul{
+	background: #e1b715;
+	display: inline-block;
+	padding: 0.5em;
+
 }
 
 /* Main navigation */
@@ -93,7 +100,7 @@ display: inline-block;
 #nav li {display: inline;}
 
 /* Searchbox */
-#portal-searchbox {float: right; margin-top: -9px;}
+#portal-searchbox {float: right; margin-top: 0.1em;}
 #portal-searchbox #searchGadget {border: 1px solid #F1F1F1;padding: 0.1em;}
 #searchGadget, .LSBox input.searchButton {padding: 0.1em 0.2em;}
 #LSResult {z-index:1; margin-top: 0.5%;}
@@ -158,8 +165,8 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {list-style: none;}
 	#searchbt a {
 		display:block;
 		text-indent: -900000px;
-		padding: 1em;
-		margin-top: -15px;
+		padding: 0.5em;
+		margin-top: 0em;
 		background:transparent url(search-ico.png) no-repeat center center;
 	}
 	
