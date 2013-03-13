@@ -70,17 +70,21 @@ padding: 10px;
 	padding-right: 10px;
 }
 
+#tools a{
+	color: #0D233D;
+}
+
 /* Main navigation */
 #nav {background: #205C90;	}
 #nav ul {;
-background: #205C90;	
+background: #033c6d;	
 color: #fff;
 font-size: 1.2em;
 border-bottom: 0px solid #FF9900;
 }
 #nav a {
 color: #fff; 
-padding: 1em; 
+padding: 0.5em; 
 text-decoration: none; 
 min-width: 3em; 
 display: inline-block;
