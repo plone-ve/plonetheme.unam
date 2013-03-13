@@ -155,14 +155,14 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {list-style: none;}
 		display:block;
 		text-indent: -900000px;
 		padding: 1em;
-		margin-top: 4%;
+		margin-top: -15px;
 		background:transparent url(search-ico.png) no-repeat center center;
 	}
 	
 	#nav #seletor {
 		display:block;
-		padding:1em;
-		width:80%;
+		padding:0.5em;
+		width:98%;
 		background:url("sections-ico.png") no-repeat 97% 60%;
 	 }
 	
@@ -213,7 +213,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {list-style: none;}
 	
 	#portal-searchbox {
 	    float: none;
-        width:80%;
+        width:98%;
 		clear:both;
 		margin: 0 auto 2%;
    }

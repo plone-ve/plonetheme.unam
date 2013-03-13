@@ -15,12 +15,12 @@
 <!--     <drop css:content="head link[rel='shortcut icon']" />
     <drop css:content="head link[rel='apple-touch-icon']" />
     <drop css:content="head meta[rel='viewport']" />
- -->    
+     -->
     <!--Content-->
-<!--     <copy attributes="*" css:content="body" css:theme="body" />
-	<copy attributes="role" css:content="content" css:theme="contentspace" />
-    <replace css:content="#portal-columns" css:theme="#content" />
- -->    
+    <!-- <copy attributes="*" css:content="body" css:theme="body" />
+	<copy attributes="role" css:content="content" css:theme="contentspace" /> -->
+    <!-- <replace css:content="#portal-columns" css:theme="#content" /> -->
+    
     <!--Viewlets-->
     <replace css:content="#portal-personaltools" css:theme="#user" />
     <!-- <copy attributes="href title" css:content="#portal-logo" css:theme="#logo a" /> -->
