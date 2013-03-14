@@ -52,10 +52,11 @@ padding: 1em 0;
 #logo-unam a {width:100%;}
 
 /* logo */
-#logo {padding: 0% 1%; float: right; width: 48%;}
+#logo {padding: 0% 1%; float: left; width: 48%;}
 #logo img {max-width:100%; float: right;}
 #logo a {width:100%;}
 
+#logos {float: left; width: 90%;}
 /* Personal tools */
 #portal-personaltools {font-size: 1.2em;}
 
@@ -195,7 +196,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {list-style: none;}
 
 	#wrapper {max-width: 100%;}
 	#logo-unam {min-width:140px;}
-	#logo {min-width: 80px;}
+	#logo {min-width: 140px;}
 	
 	/*Columns*/
 	#portal-column-one, 
