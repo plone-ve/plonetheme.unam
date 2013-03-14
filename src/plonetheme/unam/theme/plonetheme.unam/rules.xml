@@ -29,8 +29,9 @@
     <drop css:content=".searchSection" />
     <replace css:content="#portal-searchbox" css:theme="#search" />
     <replace css:content="#portal-globalnav li" css:theme-children="#nav ul" />
-    <!-- <replace css:content-children="#portal-footer" css:theme="#footer-info" />   -->
+    <replace css:content-children="#portal-footer" css:theme="#footer-info" />  
     <replace css:content="#portal-siteactions" css:theme-children="#siteactions" />  
+    <drop css:theme="#footer-banners-list"/>
     <!-- <after css:content="#portal-languageselector" css:theme="#logo-unam" />     -->
 
     <!-- Scripts -->
