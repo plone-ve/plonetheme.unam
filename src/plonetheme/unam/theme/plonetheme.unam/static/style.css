@@ -47,13 +47,13 @@ padding: 1em 0;
 /****************** HEADER ******************/
 
 /* logo-unam */
-#logo-unam {padding: 0% 1%; float: left; width: 50%;}
-#logo-unam img {max-width:100%;}
-#logo-unam a {display:inline; width:100%;}
+#logo-unam {padding: 0% 1%; float: left; width: 48%; }
+#logo-unam img {max-width:100%; float: left;}
+#logo-unam a {width:100%;}
 
 /* logo */
-#logo {padding: 0% 1%; float: right; width: auto;}
-#logo img {max-width:100%;}
+#logo {padding: 0% 1%; float: right; width: 48%;}
+#logo img {max-width:100%; float: right;}
 #logo a {width:100%;}
 
 /* Personal tools */
