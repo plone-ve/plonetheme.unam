@@ -55,40 +55,36 @@ padding: 1em 0;
 #portal-personaltools {font-size: 1.2em;}
 
 /* Site Tools */
-#tools {background: #e1b715;
-		display: inline;
-
-
+#tools {
+	background: #e1b715;
 }
-#tools ul {;
-background: #e1b715;	
+
+#tools ul {
 color: #fff;
 font-size: 1em;
-border-bottom: 0px solid #FF9900;
+border-bottom: 0px solid #033c6d;
 text-align: center;	
 }
-#tools li{display: inline; 
-}
 
-#tools a{
-	color: #0D233D;
-}
+#tools li{display: inline;}
+
+#tools a{color: #0D233D;}
 
 #siteactions ul{
-	background: #e1b715;
 	display: inline-block;
 	padding: 0.5em;
-
 }
 
 /* Main navigation */
-#nav {background: #205C90;	}
+#nav {background: #033c6d;}
+
 #nav ul {;
 background: #033c6d;	
 color: #fff;
 font-size: 1.2em;
-border-bottom: 0px solid #FF9900;
+/*border-top: 2px solid #033c6d;*/
 }
+
 #nav a {
 color: #fff; 
 padding: 0.5em; 
@@ -96,7 +92,13 @@ text-decoration: none;
 min-width: 3em; 
 display: inline-block;
 }
-#nav a:hover, #nav li.selected a {background: #ff9900;}
+
+#nav a:hover, #nav li.selected a {background: #e1b715; 
+	border-bottom-right-radius: 30%; 
+	border-bottom-left-radius:30%;
+	color: #0D233D;
+
+}
 #nav li {display: inline;}
 
 /* Searchbox */
@@ -171,6 +173,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {list-style: none;}
 	}
 	
 	#nav #seletor {
+		font-size: 1.2em;
 		display:block;
 		padding:0.5em;
 		width:98%;
@@ -198,11 +201,11 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {list-style: none;}
 		width:100%;
 		padding:0 2.5%;
 		line-height: 3em;
-      display: block;
-      width: 95% !important;
+        display: block;
+        width: 95% !important;
 	}
 	
-	#nav:hover li:hover {background: #ff9900;}
+	#nav:hover li:hover {background: #e1b715;}
 	#nav:hover li a:hover,
 	#nav:hover li.selected a {background: transparent;}
 	
