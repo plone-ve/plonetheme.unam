@@ -46,10 +46,15 @@ padding: 1em 0;
 
 /****************** HEADER ******************/
 
+/* logo-unam */
+#logo-unam {padding: 0% 1%; float: left; width: 50%;}
+#logo-unam img {max-width:100%;}
+#logo-unam a {display:inline; width:100%;}
+
 /* logo */
-#logo {padding: 0% 1%; float: left; width: 50%;}
+#logo {padding: 0% 1%; float: right; width: auto;}
 #logo img {max-width:100%;}
-#logo a {display:block; width:100%;}
+#logo a {width:100%;}
 
 /* Personal tools */
 #portal-personaltools {font-size: 1.2em;}
@@ -61,7 +66,7 @@ padding: 1em 0;
 
 }
 #tools ul {;
-background: #e1b715;	
+background: #e1b715;
 color: #fff;
 font-size: 1em;
 border-bottom: 0px solid #FF9900;
@@ -146,7 +151,8 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {list-style: none;}
 @media screen and (max-width: 768px) {
 
 	#wrapper {max-width: 100%;}
-	#logo {min-width:140px;}	
+	#logo-unam {min-width:140px;}
+	#logo {min-width: 80px;}
 	
 	/*Columns*/
 	#portal-column-one, 
