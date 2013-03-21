@@ -2,6 +2,11 @@ language: python
 
 python: 2.7
 
+env:
+  - TARGET=test
+  - TARGET=coverage.sh
+  - TARGET=python-validatioon.sh
+
 install:
   - mkdir -p buildout-cache/eggs
   - mkdir -p buildout-cache/downloads
@@ -9,7 +14,7 @@ install:
   - bin/buildout -N -t 3 -c travis.cfg install download install
   - bin/buildout -N -t 3 -c travis.cfg
 
-script: bin/test
+script: bin/$TARGET
 
 notifications:
   email:
