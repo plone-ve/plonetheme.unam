@@ -11,8 +11,6 @@ class TestIntegration(unittest.TestCase):
         from plone.app.theming.utils import getAvailableThemes
         from plone.app.theming.utils import getTheme
 
-        themes = getAvailableThemes()
-
         theme = getTheme('plonetheme.unam')
         self.assertTrue(theme is not None)
         self.assertEqual(theme.__name__, 'plonetheme.unam')
