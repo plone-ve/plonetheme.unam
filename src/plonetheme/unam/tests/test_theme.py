@@ -8,7 +8,6 @@ class TestIntegration(unittest.TestCase):
     layer = THEMING_INTEGRATION_TESTING
 
     def test_availableTheme(self):
-        from plone.app.theming.utils import getAvailableThemes
         from plone.app.theming.utils import getTheme
 
         theme = getTheme('plonetheme.unam')
