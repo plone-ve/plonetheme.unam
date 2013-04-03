@@ -82,4 +82,4 @@ Credits
     * Adriana Ramírez Vigueras.
 
 
-`beyondskins.responsive <https://github.com/simplesconsultoria/beyondskins.responsive>` was used as a start for this theme.
+`beyondskins.responsive <https://github.com/simplesconsultoria/beyondskins.responsive>`_ was used as a start for this theme.
