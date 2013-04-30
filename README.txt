@@ -43,7 +43,7 @@ Zip file
 
 If you are an end user, you might enjoy installation via zip file import.
 
-    1. Download a `zip file <https://github.com/imatem/plonetheme.unam/plonetheme.unam.zip>`_ 
+    1. Download a `zip file <https://github.com/imatem/plonetheme.unam/raw/master/plonetheme.unam.zip>`_ 
         
     2. Upload the theme from the Theming control panel.
 
@@ -83,3 +83,4 @@ Credits
 
 
 `beyondskins.responsive <https://github.com/simplesconsultoria/beyondskins.responsive>`_ was used as a start for this theme.
+Design taken from `http://recursosweb.unam.mx <http://recursosweb.unam.mx/recursos-web/lineamientos-unam/estructurales/plantilla-sugerida/>`_.
