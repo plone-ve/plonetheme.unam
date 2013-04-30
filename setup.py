@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '1.1'
+version = '1.1.1'
 
 setup(
     name='plonetheme.unam',
@@ -25,6 +25,7 @@ setup(
     license='GPL',
     packages=find_packages('src', exclude=['ez_setup']),
     package_dir={'': 'src'},
+    namespace_packages=['plonetheme'],
     include_package_data=True,
     zip_safe=False,
     install_requires=[
