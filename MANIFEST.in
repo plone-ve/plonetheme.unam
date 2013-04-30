@@ -5,3 +5,4 @@ include *.zip
 recursive-include src/plonetheme *
 recursive-include docs *
 global-exclude *pyc
+global-exclude .DS_Store
