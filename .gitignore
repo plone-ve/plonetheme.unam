@@ -4,6 +4,7 @@
 
 # Packages
 bin
+dist
 develop-eggs
 eggs
 parts
