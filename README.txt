@@ -83,4 +83,5 @@ Credits
 
 
 `beyondskins.responsive <https://github.com/simplesconsultoria/beyondskins.responsive>`_ was used as a start for this theme.
+
 Design taken from `http://recursosweb.unam.mx <http://recursosweb.unam.mx/recursos-web/lineamientos-unam/estructurales/plantilla-sugerida/>`_.
