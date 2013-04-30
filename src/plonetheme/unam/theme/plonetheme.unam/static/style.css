@@ -1,8 +1,3 @@
-/*********************************************************
-beyondskins.Responsive - Diazo responsive theme for Plone
-Simples Consultoria - www.simplesconsultoria.com.br
-*********************************************************/
-
 /* reset */
 * {margin:0; padding:0; list-style:none; vertical-align:baseline;}
 
@@ -181,6 +176,7 @@ dl.portlet ul.navTreeLevel0 > .navTreeItem {list-style: none;}
 	border-style: solid; 
 	border-radius: 1em;
 	border-color: #033c6d;
+	text-align: center;
 }
 
 /* Site Actions */
