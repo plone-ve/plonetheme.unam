@@ -19,6 +19,7 @@ setup(
         'Programming Language :: Python',
     ],
     platforms='Any',
+    url='https://github.com/imatem/plonetheme.unam',
     author='Gildardo Bautista',
     author_email='gil.cano@gmail.com',
     license='GPL',
