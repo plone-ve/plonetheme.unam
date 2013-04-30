@@ -1,23 +1,13 @@
 Changes
 =======
 
-1.1.1 (2013-04-30)
+0.1 (2013-04-30)
 ----------------
-
+- Initial release.
 - Fix packaging [gil-cano]
-
-1.1 (2013-04-30)
-----------------
-
 - Fix png, css and js files not included in egg [gil-cano]
 
-1.0 (2013-04-30)
-----------------
-
-- Initial release.
-
-
-1.0a1 (2013-02-27)
+0.1a1 (2013-02-27)
 ------------------
 
 - Start development.
