@@ -19,7 +19,7 @@ Requirements
     
 
 Screenshots
-------------
+-----------
 
 Layout of the site when viewed in a computer resolution:
 
@@ -36,10 +36,10 @@ Installation
 ------------
 
 Getting the theme
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~
 
 Zip file
-++++++++++
+++++++++
 
 If you are an end user, you might enjoy installation via zip file import.
 
@@ -48,7 +48,7 @@ If you are an end user, you might enjoy installation via zip file import.
     2. Upload the theme from the Theming control panel.
 
 Buildout
-++++++++++
+++++++++
 
 If you are a developer, you might enjoy installing it via buildout.
 
@@ -69,7 +69,7 @@ Or, you can add it as a dependency on your own product *setup.py*::
 
 
 Enabling the theme
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~
 
     Activate the theme from the Theming control panel. That's it!
 
