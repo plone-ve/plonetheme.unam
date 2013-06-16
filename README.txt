@@ -2,8 +2,21 @@
 plonetheme.unam
 ===============
 
+
+Continuous integration status:
+
 .. image:: https://travis-ci.org/imatem/plonetheme.unam.png
-	:target: https://travis-ci.org/imatem/plonetheme.unam
+    :target: https://travis-ci.org/imatem/plonetheme.unam
+
+PyPI status:
+
+.. image:: https://pypip.in/v/plonetheme.unam/badge.png
+    :target: https://crate.io/packages/plonetheme.unam/
+    :alt: Latest PyPI version
+
+.. image:: https://pypip.in/d/plonetheme.unam/badge.png
+    :target: https://crate.io/packages/plonetheme.unam/
+    :alt: Number of PyPI downloads
 
 This is a responsive theme that provides a nice unam.mx like HTML output.
 
