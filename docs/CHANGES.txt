@@ -1,6 +1,12 @@
 Changes
 -------
 
+0.2 (unreleased)
+~~~~~~~~~~~~~~~~
+
+- Updated diazo theme manifest file [macagua]
+
+
 0.1 (2013-04-30)
 ~~~~~~~~~~~~~~~~
 
