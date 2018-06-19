@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '0.1'
+version = '0.2'
 
 setup(
     name='plonetheme.unam',
@@ -9,19 +9,35 @@ setup(
     long_description=open('README.txt').read() + '\n' +
                      open('docs/CHANGES.txt').read(),
     # Get more strings from
-    # http://pypi.python.org/pypi?%3Aaction=list_classifiers
+    # https://pypi.org/pypi?:action=list_classifiers
     classifiers=[
+        'Development Status :: 4 - Beta',
         'Environment :: Web Environment',
         'Framework :: Plone',
+        'Framework :: Plone :: 4.0',
+        'Framework :: Plone :: 4.1',
+        'Framework :: Plone :: 4.2',
+        'Framework :: Plone :: 4.3',
+        'Framework :: Plone :: Theme',
+        'Framework :: Zope2',
+        'Framework :: Zope3',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: GNU General Public License (GPL)',
+        'Intended Audience :: End Users/Desktop',
+        'License :: OSI Approved :: GNU General Public License v2 (GPLv2)',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
+        'Programming Language :: Python :: 2.6',
+        'Programming Language :: Python :: 2.7',
+        'Topic :: Internet',
+        'Topic :: Software Development :: Libraries :: Python Modules',
     ],
     platforms='Any',
+    keywords='web zope plone cms diazo responsive unam mexico',
     url='https://github.com/imatem/plonetheme.unam',
     author='Gildardo Bautista',
     author_email='gil.cano@gmail.com',
+    maintainer='Leonardo Caballero',
+    maintainer_email='leonardocaballero@gmail.com',
     license='GPL',
     packages=find_packages('src', exclude=['ez_setup']),
     package_dir={'': 'src'},
