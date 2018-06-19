@@ -4,6 +4,7 @@ Changes
 0.2 (unreleased)
 ~~~~~~~~~~~~~~~~
 
+- Updated diazo theme zip file [macagua]
 - Added more strings classifiers items for this package [macagua]
 - Updated diazo theme manifest file [macagua]
 
